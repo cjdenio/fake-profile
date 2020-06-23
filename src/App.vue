@@ -33,9 +33,12 @@ export default {
 html,
 body,
 #app {
-  height: 100%;
   margin: 0;
   overflow: auto;
+}
+
+body {
+  padding-bottom: 30px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap");
